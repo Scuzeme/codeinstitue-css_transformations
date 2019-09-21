@@ -1,6 +1,13 @@
-.box {
-    width:100px;
-    height:100px;
-    background-color: #e84610;
-    
+.zoom {
+  transition: all 1s ease-in; /* Animation */
+  width:100px;
+  height:100px;
+
+
 }
+    
+
+.zoom:hover {
+  transform:scale(2);
+}
+
